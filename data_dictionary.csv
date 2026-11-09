@@ -1,0 +1,13 @@
+Column,Meaningful_Data_Type,Business_Relevance
+Order_ID,Text/String,Unique order identifier; used to track each transaction.
+Order_Date,Date (YYYY-MM-DD),Date the order was placed; useful for time trends.
+Customer_ID,Text/String,Customer identifier; supports customer-level analysis.
+Customer_Name,Text/String,Customer name/label; supports customer records.
+Age,Integer,Customer age; supports age-group analysis.
+Gender,Category,Customer gender; supports demographic analysis.
+City,Category/Text,Customer/order city; supports geographic analysis.
+Product,Category,Product purchased; supports product performance analysis.
+Category,Category,Broad product category; supports category comparisons.
+Quantity,Integer,Units purchased in the order.
+Unit_Price,Decimal,Price per unit.
+Total_Sales,Decimal,Order sales value (Quantity × Unit_Price).
